@@ -1,0 +1,10 @@
+const hotelTypes = {
+    CREATE_HOTEL: 'CREATE_HOTEL',
+    CREATED_HOTEL: 'CREATED_HOTEL',
+    CREATED_HOTEL_FAIL: 'CREATED_HOTEL_FAIL',
+    GET_ALL: 'GET_ALL',
+    GOT_ALL: 'GOT_ALL',
+    GOT_ALL_FAIL: 'GOT_ALL_FAIL'
+}
+
+export default hotelTypes

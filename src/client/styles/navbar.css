@@ -1,0 +1,46 @@
+.main-nav{
+    display: flex;
+    background:#423e3e;
+    padding-left:3%;
+}
+
+.main-nav-ul{
+    display: flex;
+    margin:0;
+}
+
+.list-item{
+    list-style: none;
+}
+
+.nav-link{
+     padding:16px 20px;
+     display: block;
+}
+
+.nav-link:hover{
+     background: white;
+     color:#423e3e;
+}
+
+.navbar-brand{
+    display: block;
+    align-self:center;
+    transform: scale(1.5);
+}
+
+.left-navbar{
+    display: flex;
+}
+
+.right-navbar{
+    display:flex;
+    width:20%;
+    margin-left: auto;
+    margin-right:100px;
+}
+
+.user-menu-hi{
+    position: relative;
+    padding:16px 10px;
+}

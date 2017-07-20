@@ -1,0 +1,51 @@
+@keyframes button-hover{
+    0%{
+        background-position: 0% 100%;
+    }
+    50%{
+        background-position: 100% 0%;
+    }
+    100%{
+        background-position: 0% 100%;
+    }
+}
+
+.hotel-card{
+    border-radius: 20px 5px 20px 5px;
+    width:70%;
+    margin:20px auto; 
+    padding:1%;
+    box-sizing: border-box;
+    color: lightgrey;
+    display: flex;
+    box-shadow: 0 0 20px whitesmoke;
+    height:300px;
+}
+
+.hotel-card img{
+    width:48%;
+    max-height: 100%;
+}
+
+.hotel-card-right{
+    padding-left: 2%;
+}
+
+.hotel-card h3{
+    color: skyblue;
+}
+
+.hotel-card a {
+    border:none;
+    padding: 10px 20px;
+    font-weight: bold;
+    color: darkslategray;
+    background: skyblue;
+}
+
+.hotel-card a:hover {
+    cursor: pointer;
+    background:linear-gradient(to right,white ,skyblue );
+    background-size: 200% 200%;
+    animation: button-hover 2s infinite;
+}

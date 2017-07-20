@@ -1,0 +1,24 @@
+.pages{
+    display: flex;
+    justify-content: center;
+}
+
+.single-page-link{
+    display: block;
+    margin: 1% 0.25%;
+    border:1px solid white;
+    background: skyblue;
+    border-radius: 10px 0 10px 0;
+    padding: 1%;
+    color:black;
+    font-weight:bold;
+
+}
+
+.single-page-link:nth-of-type(2n){
+    border-radius: 0 10px 0px 10px;
+}
+
+.page-highlight{
+    background: white;
+}
